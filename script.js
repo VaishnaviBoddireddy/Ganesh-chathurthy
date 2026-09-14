@@ -3,7 +3,7 @@ const replayButton = document.getElementById("replayButton");
 replayButton.addEventListener("click", function () {
 
     const animatedElements = document.querySelectorAll(
-        ".brand,  .light-rays, .light, .flower-decoration"
+        ".brand, .ganesha, .light-rays, .light, .flower-decoration"
     );
 
     animatedElements.forEach(function (element) {
